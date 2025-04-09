@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUAD'S COFFEE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #d4af37;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background-color: #1a1a1a;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.5em;
+      font-style: italic;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .galeria img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .servicos ul {
+      list-style: none;
+      padding: 0;
+    }
+    .servicos li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #d4af37;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    .contato input,
+    .contato textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+    .contato button {
+      background-color: #d4af37;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      color: #000;
+      border-radius: 5px;
+    }
+    a {
+      color: #d4af37;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AUAD'S COFFEE</h1>
+    <p>Sofisticação que se bebe</p>
+    <a href="#servicos" style="font-weight: bold; text-decoration: underline;">Conheça nossos serviços</a>
+  </header>
+
+  <section>
+    <h2>Sobre Nós</h2>
+    <p>Na AUAD'S COFFEE, levamos a experiência do café da manhã até sua empresa. Um serviço exclusivo, saboroso e feito para impressionar.</p>
+  </section>
+
+  <section>
+    <h2>Galeria de Eventos</h2>
+    <div class="galeria">
+      <img src="https://images.unsplash.com/photo-1556911073-52527ac437f5" alt="Evento 1 - Mesa de café da manhã elegante" />
+      <img src="https://images.unsplash.com/photo-1605479721617-6cfa7a7b301e" alt="Evento 2 - Café da manhã corporativo" />
+      <img src="https://images.unsplash.com/photo-1598514982839-1a35820e027b" alt="Evento 3 - Buffet montado em empresa" />
+    </div>
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="servicos">
+      <ul>
+        <li>Pães artesanais variados</li>
+        <li>Sucos naturais frescos</li>
+        <li>Café especial e bebidas quentes</li>
+        <li>Bolos e tortas caseiras</li>
+        <li>Frutas da estação</li>
+        <li>Montagem personalizada para cada empresa</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <div class="contato">
+      <input type="text" placeholder="Seu nome" />
+      <input type="email" placeholder="Seu e-mail" />
+      <input type="text" placeholder="Nome da empresa" />
+      <textarea rows="4" placeholder="Mensagem"></textarea>
+      <button>Enviar</button>
+    </div>
+    <p>Ou fale conosco pelo <a href="https://wa.me/5521997610770">WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>AUAD'S COFFEE &copy; 2025 - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
